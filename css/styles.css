@@ -24,6 +24,7 @@ address {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize;
   color: #2e2f42;
 }
 
@@ -47,7 +48,7 @@ address {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
@@ -106,7 +107,8 @@ address {
   background-color: #4d5ae5;
 }
 
-.hero-button:hover {
+.hero-button:hover,
+.hero-button:focus {
   background-color: #404bbf;
 }
 
@@ -129,7 +131,7 @@ address {
 
 /* Footer */
 .footer {
-  background-color: #434455;
+  background-color: #2e2f42;
 }
 
 .footer-text {
